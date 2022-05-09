@@ -1,0 +1,9 @@
+.devcontainer
+.github
+.vscode
+node_modules
+
+.gitattributes
+.gitignore
+LICENSE
+README.md
