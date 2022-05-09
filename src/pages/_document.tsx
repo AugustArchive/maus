@@ -24,24 +24,24 @@
 import Document, { NextScript, Head, Html, Main, DocumentContext } from 'next/document';
 
 export default class MausDocument extends Document {
-    static async getInitialProps(ctx: DocumentContext) {
-        const initial = await Document.getInitialProps(ctx);
-        return initial;
-    }
+  static async getInitialProps(ctx: DocumentContext) {
+    const initial = await Document.getInitialProps(ctx);
+    return initial;
+  }
 
-    override render() {
-        return (
-            <Html>
-                <Head>
-                    <link rel="shortcut icon" href="https://cdn.floofy.dev/images/August.png" />
-                    <link rel="icon" href="https://cdn.floofy.dev/images/August.png" />
-                    <meta charSet="UTF-8" />
-                </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        );
-    }
+  override render() {
+    return (
+      <Html>
+        <Head>
+          <link rel="shortcut icon" href="https://cdn.floofy.dev/images/August.png" />
+          <link rel="icon" href="https://cdn.floofy.dev/images/August.png" />
+          <meta charSet="UTF-8" />
+        </Head>
+        <body className="bg-slate-200 dark:bg-zinc-900">
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }

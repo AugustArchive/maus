@@ -25,5 +25,5 @@ import type { AppProps } from 'next/app';
 import '../styles/style.scss';
 
 export default function MausApp({ Component, pageProps }: AppProps) {
-    return <Component {...pageProps} />;
+  return <Component {...pageProps} />;
 }

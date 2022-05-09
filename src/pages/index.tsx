@@ -24,15 +24,15 @@
 import SEO from '../components/SEO';
 
 export default function Index() {
-    return (
-      <>
-        <SEO path='/' />
+  return (
+    <>
+      <SEO path="/" />
 
-        <div className="container mx-auto flex h-screen flex-col">
-          <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text font-cantarell text-8xl font-bold text-transparent">
-            hello world!
-          </p>
-        </div>
-      </>
-    );
-  }
+      <div className="container mx-auto flex h-screen flex-col">
+        <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text font-cantarell text-8xl font-bold text-transparent">
+          hello world!
+        </p>
+      </div>
+    </>
+  );
+}
