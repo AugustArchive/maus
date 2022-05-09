@@ -35,7 +35,7 @@
     "@augu/eslint-config": "2.2.0",
     "@augu/tsconfig": "1.1.1",
     "@types/node": "17.0.8",
-    "@types/react": "17.0.43",
+    "@types/react": "17.0.45",
     "@types/tailwindcss": "3.0.10",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
