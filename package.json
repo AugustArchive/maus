@@ -21,7 +21,7 @@
     "@headlessui/react": "1.5.0",
     "@heroicons/react": "1.0.6",
     "@react-hook/media-query": "1.1.1",
-    "autoprefixer": "10.4.4",
+    "autoprefixer": "10.4.7",
     "framer-motion": "6.2.8",
     "luxon": "2.3.1",
     "next": "12.1.4",
