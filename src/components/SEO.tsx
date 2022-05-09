@@ -1,5 +1,5 @@
 /*
- * {{ EMOJI }} {{ PROJECT_NAME }}: {{ PROJECT_DESCRIPTION }}
+ * 🐭 maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,8 +21,8 @@
  * SOFTWARE.
  */
 
-import Head from 'next/head';
 import type { FC } from 'react';
+import Head from 'next/head';
 
 interface SEOProps {
   title?: string;
@@ -33,7 +33,15 @@ interface SEOProps {
 
 const SEO: FC<SEOProps> = ({ title, description, image, path }) => (
   <Head>
-    <title>{title ?? 'Example page.'}</title>
+    <title>{title ?? 'Maus • Story of Anja Spiegelman'}</title>
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='description' content={description ?? 'The story of Anja Spiegelman, a loyal women who died off of suicide.'} />
+    <meta name='theme-color' content='#535353' />
+    <meta property='og:description' content={description ?? 'The story of Anja Spiegelman, a loyal women who died off of suicide.'} />
+    <meta property='og:title' content={title ?? 'Maus &bull; Story of Anja Spiegelman'} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maus.floof.gay" />
   </Head>
 );
 

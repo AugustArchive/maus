@@ -35,7 +35,7 @@ const tailwindConfig = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', ...defaultConfig.theme.fontFamily.sans],
+        sans: ['Inter', ...defaultConfig.theme.fontFamily.sans]
       }
     }
   },

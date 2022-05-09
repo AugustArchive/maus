@@ -1,5 +1,5 @@
 /*
- * {{ EMOJI }} {{ PROJECT_NAME }}: {{ PROJECT_DESCRIPTION }}
+ * 🐭 maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,3 +20,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+import SEO from '../components/SEO';
+
+export default function Index() {
+    return (
+      <>
+        <SEO path='/' />
+
+        <div className="container mx-auto flex h-screen flex-col">
+          <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text font-cantarell text-8xl font-bold text-transparent">
+            hello world!
+          </p>
+        </div>
+      </>
+    );
+  }

@@ -1,17 +1,12 @@
 {
-  "name": "some_project_name",
-  "description": "{{ PROJECT_DESCRIPTION }}",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "@noel/maus",
+  "description": "Source code for maus.floof.gay, a project describing a specific character in Maus.",
+  "version": "1.0.0",
+  "license": "Unlicensed",
   "author": "Noel <cutie@floofy.dev>",
-  "repository": "{{ PROJECT_REPO_URL }}",
-  "bugs": "{{ PROJECT_ISSUES_URI }}",
+  "repository": "https://github.com/auguwu/maus",
   "keywords": [
-    "{{ SOME KEYWORDS HERE }}"
-  ],
-  "files": [
-    "build",
-    "index.d.ts"
+    "maus"
   ],
   "scripts": {
     "start": "next start",

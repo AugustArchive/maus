@@ -1,5 +1,5 @@
 /*
- * {{ EMOJI }} {{ PROJECT_NAME }}: {{ PROJECT_DESCRIPTION }}
+ * 🐭 maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,3 +20,28 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+import Document, { NextScript, Head, Html, Main, DocumentContext } from 'next/document';
+
+export default class MausDocument extends Document {
+    static async getInitialProps(ctx: DocumentContext) {
+        const initial = await Document.getInitialProps(ctx);
+        return initial;
+    }
+
+    override render() {
+        return (
+            <Html>
+                <Head>
+                    <link rel="shortcut icon" href="https://cdn.floofy.dev/images/August.png" />
+                    <link rel="icon" href="https://cdn.floofy.dev/images/August.png" />
+                    <meta charSet="UTF-8" />
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                </body>
+            </Html>
+        );
+    }
+}
