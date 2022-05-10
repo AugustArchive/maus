@@ -22,7 +22,7 @@
     "@heroicons/react": "1.0.6",
     "@react-hook/media-query": "1.1.1",
     "autoprefixer": "10.4.7",
-    "framer-motion": "6.2.8",
+    "framer-motion": "6.3.3",
     "luxon": "2.3.1",
     "next": "12.1.6",
     "postcss": "8.4.13",
