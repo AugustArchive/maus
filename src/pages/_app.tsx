@@ -1,5 +1,5 @@
 /*
- * 🐭 maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
+ * 🐭 Maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy

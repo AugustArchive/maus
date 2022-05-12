@@ -1,5 +1,5 @@
 /*
- * {{ EMOJI }} {{ PROJECT_NAME }}: {{ PROJECT_DESCRIPTION }}
+ * 🐭 Maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,7 +20,6 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
 // @ts-check
 
 const defaultConfig = require('tailwindcss/defaultConfig');
@@ -35,6 +34,7 @@ const tailwindConfig = {
   theme: {
     extend: {
       fontFamily: {
+        serif: ['Cantarell', ...defaultConfig.theme.fontFamily.serif],
         sans: ['Inter', ...defaultConfig.theme.fontFamily.sans]
       }
     }

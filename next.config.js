@@ -1,5 +1,5 @@
 /*
- * {{ EMOJI }} {{ PROJECT_NAME }}: {{ PROJECT_DESCRIPTION }}
+ * 🐭 Maus: Source code for maus.floof.gay, a project describing a specific character in Maus.
  * Copyright (c) 2022 Noel <cutie@floofy.dev>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,9 +24,17 @@
 // @ts-check
 
 /**
- * Next.js configuration for {{ PROJECT_NAME }}
+ * Next.js configuration for maus.floof.gay
  * @type {import('next').NextConfig}
  */
-const nextConfig = {};
+const nextConfig = {
+  productionBrowserSourceMaps: true,
+  reactStrictMode: true,
+  poweredByHeader: true,
+  eslint: { ignoreDuringBuilds: true },
+  images: {
+    domains: ['i-am.floof.gay', 'cdn.floofy.dev']
+  }
+};
 
 module.exports = nextConfig;

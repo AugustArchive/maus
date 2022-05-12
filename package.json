@@ -2,7 +2,7 @@
   "name": "@noel/maus",
   "description": "Source code for maus.floof.gay, a project describing a specific character in Maus.",
   "version": "1.0.0",
-  "license": "Unlicensed",
+  "license": "MIT",
   "author": "Noel <cutie@floofy.dev>",
   "repository": "https://github.com/auguwu/maus",
   "keywords": [
